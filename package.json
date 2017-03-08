@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/danielbeeke/verkiezingsuitslagen#readme",
   "dependencies": {
-    "csv-parse": "^1.2.0"
+    "bluebird": "^3.5.0",
+    "csv-parse": "^1.2.0",
+    "pg-promise": "^5.6.3"
   }
 }
