@@ -6,7 +6,10 @@ CREATE TABLE parties (
 CREATE TABLE party_aliases (
   ID SERIAL PRIMARY KEY,
   alias VARCHAR,
-  party_ID INTEGER
+  party_ID INTEGER,
+  year INTEGER,
+  CONSTRAINT unique_party_id_per_year UNIQUE (party_ID, year),
+  CONSTRAINT unique_party_alias_per_year UNIQUE (year, alias)
 );
 
 CREATE TABLE seats (

@@ -83,6 +83,15 @@ var dataParser = {
 
 
         return newCityVotes;
+    },
+
+    validatePartyNames: function (totals, cityVotes) {
+        var cityVotesPartyNames = cityVotes[0].parties.map((party) => party.name);
+        var totalsPartyNames = totals.map((total) => total.party);
+
+        if (JSON.stringify(totalsPartyNames) != JSON.stringify(cityVotesPartyNames)) {
+            throw new Error('Party names are not the same for the totals and the city votes');
+        }
     }
 };
 
