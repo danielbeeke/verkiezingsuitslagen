@@ -1,0 +1,19 @@
+{
+  "name": "verkiezingsuitslagen",
+  "version": "1.0.0",
+  "description": "Used data from: http://www.verkiezingsuitslagen.nl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielbeeke/verkiezingsuitslagen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielbeeke/verkiezingsuitslagen/issues"
+  },
+  "homepage": "https://github.com/danielbeeke/verkiezingsuitslagen#readme"
+}
