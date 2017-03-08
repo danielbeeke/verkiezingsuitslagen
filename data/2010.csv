@@ -1,25 +1,4 @@
-Partij,Aggregatie partij,# Stemmen,Percentage,# Zetels
-VVD,,1929575,"20,49 %",31
-Partij van de Arbeid (P.v.d.A.),,1848805,"19,63 %",30
-PVV (Partij voor de Vrijheid),,1454493,"15,45 %",24
-Christen Democratisch Appèl (CDA),,1281886,"13,61 %",21
-SP (Socialistische Partij),,924696,"9,82 %",15
-Democraten 66 (D66),,654167,"6,95 %",10
-GROENLINKS,,628096,"6,67 %",10
-ChristenUnie,,305094,"3,24 %",5
-Staatkundig Gereformeerde Partij (SGP),,163581,"1,74 %",2
-Partij voor de Dieren,,122317,"1,30 %",2
-TROTS OP NEDERLAND LIJST RITA VERDONK,,52937,"0,56 %",0
-Partij voor Mens en Spirit (MenS),,26196,"0,28 %",0
-Piratenpartij,,10471,"0,11 %",0
-Lijst 17,,7456,"0,08 %",0
-Partij één,,2042,"0,02 %",0
-Nieuw Nederland,,2010,"0,02 %",0
-Heel NL,,1255,"0,01 %",0
-Evangelische Partij Nederland,,924,"0,01 %",0
-
-
-Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige stemmen,# blanco stemmen,Percentage blanco stemmen,# kiesgerechtigden,Opkomst,Opkomstpercentage,VVD,Partij van de Arbeid (P.v.d.A.),PVV (Partij voor de Vrijheid),Christen Democratisch Appèl (CDA),SP (Socialistische Partij),Democraten 66 (D66),GROENLINKS,ChristenUnie,Staatkundig Gereformeerde Partij (SGP),Partij voor de Dieren,TROTS OP NEDERLAND LIJST RITA VERDONK,Partij voor Mens en Spirit (MenS),Piratenpartij,Lijst 17,Partij één,Nieuw Nederland,Heel NL,Evangelische Partij Nederland
+Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige stemmen,# blanco stemmen,Percentage blanco stemmen,# kiesgerechtigden,Opkomst,Opkomstpercentage,VVD,Partij van de Arbeid (P.v.d.A.),PVV (Partij voor de Vrijheid),Christen Democratisch Appï¿½l (CDA),SP (Socialistische Partij),Democraten 66 (D66),GROENLINKS,ChristenUnie,Staatkundig Gereformeerde Partij (SGP),Partij voor de Dieren,TROTS OP NEDERLAND LIJST RITA VERDONK,Partij voor Mens en Spirit (MenS),Piratenpartij,Lijst 17,Partij ï¿½ï¿½n,Nieuw Nederland,Heel NL,Evangelische Partij Nederland
 10787,1680,Aa en Hunze,15973,11,13,"0,08 %",20153,15997,"79,38 %",4057,4744,1608,1259,1491,1040,1159,254,19,201,64,46,14,5,5,7,0,0
 11084,0738,Aalburg,7648,9,3,"0,04 %",9295,7660,"82,41 %",1136,491,1224,1553,423,162,152,820,1575,60,33,10,2,4,0,3,0,0
 11264,0358,Aalsmeer,17446,42,21,"0,12 %",21643,17509,"80,90 %",6024,2170,2499,2738,967,1169,807,613,81,212,105,28,12,14,1,6,0,0
@@ -136,7 +115,7 @@ Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige stemmen,# blanco st
 10750,0777,Etten-Leur,22743,36,24,"0,11 %",31614,22803,"72,13 %",5341,3813,4270,3292,2758,1393,1120,208,14,244,171,58,27,24,5,2,3,0
 11284,1722,Ferwerderadiel,5022,12,5,"0,10 %",6739,5039,"74,77 %",659,950,530,1422,586,178,226,344,25,70,11,15,4,0,0,2,0,0
 10404,0070,Franekeradeel,11850,10,6,"0,05 %",15827,11866,"74,97 %",1877,2866,1337,2400,1431,484,679,515,41,112,46,43,8,8,0,1,0,2
-10036,0653,Gaasterlân-Sleat,6486,10,4,"0,06 %",7985,6500,"81,40 %",1113,1106,718,1735,631,297,351,249,144,72,31,32,2,4,0,1,0,0
+10036,0653,Gaasterlï¿½n-Sleat,6486,10,4,"0,06 %",7985,6500,"81,40 %",1113,1106,718,1735,631,297,351,249,144,72,31,32,2,4,0,1,0,0
 10101,0779,Geertruidenberg,11808,13,6,"0,05 %",16577,11827,"71,35 %",2517,1977,2447,1705,1579,586,592,91,22,121,108,39,13,6,0,3,2,0
 10881,0236,Geldermalsen,16113,20,19,"0,12 %",19523,16152,"82,73 %",4054,2208,2812,2334,1005,825,718,424,1402,143,123,29,13,13,3,4,3,0
 10529,1771,Geldrop-Mierlo,21912,30,20,"0,09 %",29315,21962,"74,92 %",4092,3491,3979,3516,3278,1446,1363,211,9,264,139,62,30,16,2,7,7,0
@@ -344,7 +323,7 @@ Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige stemmen,# blanco st
 10496,0845,Sint-Michielsgestel,16429,22,16,"0,10 %",21450,16467,"76,77 %",3620,2494,2568,3029,2149,1253,852,85,16,146,146,35,17,12,1,3,3,0
 10399,0846,Sint-Oedenrode,10571,13,8,"0,08 %",13552,10592,"78,16 %",2161,1491,1478,2678,1517,576,450,45,4,60,66,20,15,6,3,1,0,0
 11230,1883,Sittard-Geleen,54254,89,55,"0,10 %",74877,54398,"72,65 %",7396,9135,15111,8094,6764,2356,3503,345,28,795,406,213,39,42,8,10,9,0
-10022,0051,Skarsterlân,16365,10,10,"0,06 %",20866,16385,"78,52 %",3073,3752,1779,3459,1774,758,867,553,43,126,84,63,18,11,2,0,0,3
+10022,0051,Skarsterlï¿½n,16365,10,10,"0,06 %",20866,16385,"78,52 %",3073,3752,1779,3459,1774,758,867,553,43,126,84,63,18,11,2,0,0,3
 11331,0610,Sliedrecht,13861,18,8,"0,06 %",18338,13887,"75,73 %",2057,2094,1928,1833,1322,443,469,1522,1940,146,59,23,11,8,0,4,2,0
 10747,0040,Slochteren,9131,12,9,"0,10 %",11957,9152,"76,54 %",1601,2236,1143,994,902,453,626,878,82,126,50,25,6,5,1,2,0,1
 10895,1714,Sluis,13532,18,12,"0,09 %",18202,13562,"74,51 %",3130,2534,2367,2231,1330,606,646,220,102,166,152,26,11,10,0,1,0,0
@@ -430,7 +409,7 @@ Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige stemmen,# blanco st
 10648,0880,Wormerland,9336,17,10,"0,11 %",12061,9363,"77,63 %",2163,1991,1359,947,1127,624,716,143,15,136,73,23,8,4,1,3,2,1
 11398,0351,Woudenberg,7228,11,5,"0,07 %",8782,7244,"82,49 %",1512,730,787,1331,360,303,240,685,1158,62,28,17,8,5,0,2,0,0
 10282,0874,Woudrichem,8898,8,3,"0,03 %",11046,8909,"80,65 %",1582,1023,1197,2203,772,279,295,1100,322,72,31,14,4,4,0,0,0,0
-10454,0710,Wûnseradiel,6971,5,3,"0,04 %",8926,6979,"78,19 %",1168,1372,741,1822,772,289,417,230,11,74,38,28,5,2,1,1,0,0
+10454,0710,Wï¿½nseradiel,6971,5,3,"0,04 %",8926,6979,"78,19 %",1168,1372,741,1822,772,289,417,230,11,74,38,28,5,2,1,1,0,0
 11427,0683,Wymbritseradiel,9767,8,12,"0,12 %",12054,9787,"81,19 %",1749,1653,909,2795,985,528,569,403,25,67,36,36,5,3,1,3,0,0
 11044,0479,Zaanstad,78480,130,71,"0,09 %",108441,78681,"72,56 %",15544,19615,13762,5878,8977,4920,5834,1333,206,1428,539,212,101,59,16,23,22,11
 10557,0297,Zaltbommel,15407,16,10,"0,06 %",19308,15433,"79,93 %",2845,2312,2115,2214,1063,825,679,1045,2021,146,67,49,6,10,2,8,0,0
@@ -450,7 +429,3 @@ Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige stemmen,# blanco st
 10746,1896,Zwartewaterland,12765,12,2,"0,02 %",15653,12779,"81,64 %",1447,1530,1193,2746,740,278,266,2171,2270,57,43,12,5,2,2,3,0,0
 10468,0642,Zwijndrecht,25415,35,21,"0,08 %",34397,25471,"74,05 %",5268,4161,4703,3314,2486,1240,1083,1515,1036,358,144,54,20,28,1,3,1,0
 10093,0193,Zwolle,69686,78,60,"0,09 %",91293,69824,"76,48 %",11244,16748,6168,8557,6583,5362,6237,6835,473,813,249,200,115,65,18,9,10,0
-This file is created with Aspose.Cells for evaluation only with an Evaluation License. 
-It is strictly prohibited from using it in the production of any software. 
-Any violation of this provision shall require a mandatory purchase of pay license 
-as well as expose the user to other legal recourse for collection and punitive damages.

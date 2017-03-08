@@ -1,28 +1,4 @@
-Partij,Aggregatie partij,# Stemmen,Percentage,# Zetels
-VVD,,2504948,"26,58 %",41
-Partij van de Arbeid (P.v.d.A.),,2340750,"24,84 %",38
-PVV (Partij voor de Vrijheid),,950263,"10,08 %",15
-SP (Socialistische Partij),,909853,"9,65 %",15
-Christen Democratisch Appèl (CDA),,801620,"8,51 %",13
-Democraten 66 (D66),,757091,"8,03 %",12
-ChristenUnie,,294586,"3,13 %",5
-GROENLINKS,,219896,"2,33 %",4
-Staatkundig Gereformeerde Partij (SGP),,196780,"2,09 %",3
-Partij voor de Dieren,,182162,"1,93 %",2
-50PLUS,,177631,"1,88 %",2
-Piratenpartij,,30600,"0,32 %",0
-Partij voor Mens en Spirit (MenS),,18310,"0,19 %",0
-SOPN,,12982,"0,14 %",0
-Partij van de Toekomst (PvdT),,8194,"0,09 %",0
-Democratisch Politiek Keerpunt DPK,,7363,"0,08 %",0
-Libertarische Partij (LP),,4163,"0,04 %",0
-Nederland Lokaal,,2842,"0,03 %",0
-Liberaal Democratische Partij (LibDem),,2126,"0,02 %",0
-Anti Europa Partij,,2013,"0,02 %",0
-Politieke Partij NXD,,62,"0,00 %",0
-
-
-Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige stemmen,# blanco stemmen,Percentage blanco stemmen,# kiesgerechtigden,Opkomst,Opkomstpercentage,VVD,Partij van de Arbeid (P.v.d.A.),PVV (Partij voor de Vrijheid),SP (Socialistische Partij),Christen Democratisch Appèl (CDA),Democraten 66 (D66),ChristenUnie,GROENLINKS,Staatkundig Gereformeerde Partij (SGP),Partij voor de Dieren,50PLUS,Piratenpartij,Partij voor Mens en Spirit (MenS),SOPN,Partij van de Toekomst (PvdT),Democratisch Politiek Keerpunt DPK,Libertarische Partij (LP),Nederland Lokaal,Liberaal Democratische Partij (LibDem),Anti Europa Partij,Politieke Partij NXD
+Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige stemmen,# blanco stemmen,Percentage blanco stemmen,# kiesgerechtigden,Opkomst,Opkomstpercentage,VVD,Partij van de Arbeid (P.v.d.A.),PVV (Partij voor de Vrijheid),SP (Socialistische Partij),Christen Democratisch Appï¿½l (CDA),Democraten 66 (D66),ChristenUnie,GROENLINKS,Staatkundig Gereformeerde Partij (SGP),Partij voor de Dieren,50PLUS,Piratenpartij,Partij voor Mens en Spirit (MenS),SOPN,Partij van de Toekomst (PvdT),Democratisch Politiek Keerpunt DPK,Libertarische Partij (LP),Nederland Lokaal,Liberaal Democratische Partij (LibDem),Anti Europa Partij,Politieke Partij NXD
 10787,1680,Aa en Hunze,16342,21,16,"0,10 %",20373,16379,"80,40 %",4725,6063,990,1300,850,1170,232,344,46,290,207,29,40,20,7,19,4,3,2,1,0
 11084,0738,Aalburg,7611,23,7,"0,09 %",9474,7641,"80,65 %",1778,662,834,409,856,183,851,49,1757,102,104,9,2,4,4,4,2,1,0,0,0
 11264,0358,Aalsmeer,17636,35,25,"0,14 %",22193,17696,"79,74 %",8058,2646,1610,727,1495,1326,633,218,134,306,354,38,24,19,22,18,5,0,3,0,0
@@ -135,7 +111,7 @@ Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige stemmen,# blanco st
 10750,0777,Etten-Leur,22983,45,32,"0,14 %",32122,23060,"71,79 %",7070,5214,2830,2769,1891,1525,171,340,34,346,590,66,39,17,37,16,12,9,4,3,0
 11284,1722,Ferwerderadiel,4947,4,6,"0,12 %",6722,4957,"73,74 %",812,1346,378,502,1122,182,325,66,30,66,69,11,11,12,5,7,0,1,0,2,0
 10404,0070,Franekeradeel,11842,24,13,"0,11 %",15757,11879,"75,39 %",2415,3715,865,1165,1930,561,475,211,59,193,144,19,34,25,13,9,2,2,3,2,0
-10036,0653,Gaasterlân-Sleat,6382,8,15,"0,24 %",8007,6405,"79,99 %",1610,1450,403,520,1364,314,193,129,166,100,72,11,10,16,6,9,5,3,0,1,0
+10036,0653,Gaasterlï¿½n-Sleat,6382,8,15,"0,24 %",8007,6405,"79,99 %",1610,1450,403,520,1364,314,193,129,166,100,72,11,10,16,6,9,5,3,0,1,0
 10101,0779,Geertruidenberg,11927,16,24,"0,20 %",16831,11967,"71,10 %",3572,2615,1668,1520,961,654,85,156,40,182,340,37,26,19,11,14,17,6,3,1,0
 10881,0236,Geldermalsen,15926,23,14,"0,09 %",19664,15963,"81,18 %",5511,2866,1714,812,1275,972,345,254,1549,207,296,56,13,12,13,12,4,4,8,3,0
 10529,1771,Geldrop-Mierlo,21872,31,47,"0,21 %",29808,21950,"73,64 %",5629,4777,2556,3391,1978,1726,184,456,18,378,584,78,36,29,23,8,9,2,6,4,0
@@ -339,7 +315,7 @@ Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige stemmen,# blanco st
 10496,0845,Sint-Michielsgestel,16147,32,27,"0,17 %",21551,16206,"75,20 %",4912,3332,1509,2128,1764,1460,67,322,12,233,291,31,27,13,15,16,9,5,0,1,0
 10399,0846,Sint-Oedenrode,10572,16,22,"0,21 %",13808,10610,"76,84 %",3378,2061,901,1519,1443,737,36,125,10,91,195,25,16,17,6,3,4,1,4,0,0
 11230,1883,Sittard-Geleen,51851,101,170,"0,33 %",74640,52122,"69,83 %",10109,12202,10114,7406,4858,3177,274,1043,40,995,1096,151,143,120,38,44,14,9,10,8,0
-10022,0051,Skarsterlân,16527,23,21,"0,13 %",21068,16571,"78,65 %",4167,5061,1184,1272,2633,903,452,204,78,210,195,36,44,34,25,11,7,5,1,5,0
+10022,0051,Skarsterlï¿½n,16527,23,21,"0,13 %",21068,16571,"78,65 %",4167,5061,1184,1272,2633,903,452,204,78,210,195,36,44,34,25,11,7,5,1,5,0
 11331,0610,Sliedrecht,13885,38,9,"0,06 %",18542,13932,"75,14 %",2817,2720,1258,1025,1184,454,1506,124,2266,193,256,35,17,13,7,2,3,0,1,4,0
 10747,0040,Slochteren,9211,26,14,"0,15 %",12037,9251,"76,85 %",1987,2880,704,919,717,482,828,181,119,206,117,19,11,13,10,8,2,8,0,0,0
 10895,1714,Sluis,13478,22,18,"0,13 %",18024,13518,"75,00 %",4251,3168,1546,1350,1429,617,208,200,114,208,235,23,18,45,12,11,6,4,30,3,0
@@ -356,7 +332,7 @@ Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige stemmen,# blanco st
 11319,0971,Stein,14819,30,33,"0,22 %",20699,14882,"71,90 %",2992,3191,3203,2218,1234,786,45,217,11,305,456,37,41,45,14,13,3,6,2,0,0
 10191,1904,Stichtse Vecht,37952,65,42,"0,11 %",48244,38059,"78,89 %",13402,7647,3830,2285,2912,3405,1048,870,804,741,738,88,57,22,28,25,29,10,4,7,0
 10558,0617,Strijen,5440,6,5,"0,09 %",7009,5451,"77,77 %",1658,1071,678,371,554,271,295,73,202,129,101,12,12,6,3,3,0,0,0,1,0
-11421,1900,Súdwest-Fryslân,49213,78,49,"0,10 %",63364,49340,"77,87 %",11268,14224,3490,4359,8900,2617,1551,861,198,690,607,131,112,85,37,45,15,10,5,8,0
+11421,1900,Sï¿½dwest-Fryslï¿½n,49213,78,49,"0,10 %",63364,49340,"77,87 %",11268,14224,3490,4359,8900,2617,1551,861,198,690,607,131,112,85,37,45,15,10,5,8,0
 10891,0009,Ten Boer,4509,7,3,"0,07 %",5580,4519,"80,99 %",666,1471,241,431,516,232,596,116,93,66,52,11,7,2,4,3,1,0,1,0,0
 10704,0715,Terneuzen,28314,69,53,"0,19 %",41118,28436,"69,16 %",6443,7061,3823,2812,2686,1269,1410,372,1241,394,520,69,37,51,32,32,12,27,17,6,0
 11210,0093,Terschelling,4425,5,7,"0,16 %",3850,4437,"115,25 %",1311,1275,276,349,418,321,112,133,22,103,82,8,7,3,1,3,0,0,0,1,0
@@ -441,7 +417,3 @@ Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige stemmen,# blanco st
 10746,1896,Zwartewaterland,12832,32,12,"0,09 %",15822,12876,"81,38 %",2266,1901,817,686,1584,327,2200,80,2686,72,149,22,13,5,11,9,1,0,3,0,0
 10468,0642,Zwijndrecht,25489,64,46,"0,18 %",34619,25599,"73,94 %",6726,5543,3392,2045,2192,1277,1512,300,1206,515,580,86,29,24,26,21,6,6,0,3,0
 10093,0193,Zwolle,72161,123,167,"0,23 %",93106,72451,"77,82 %",14198,21411,4328,6878,5403,6696,7355,2275,769,1288,871,289,154,121,43,28,19,13,8,14,0
-This file is created with Aspose.Cells for evaluation only with an Evaluation License. 
-It is strictly prohibited from using it in the production of any software. 
-Any violation of this provision shall require a mandatory purchase of pay license 
-as well as expose the user to other legal recourse for collection and punitive damages.

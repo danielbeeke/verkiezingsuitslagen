@@ -1,31 +1,3 @@
-Partij,Aggregatie partij,# Stemmen,Percentage,# Zetels
-CDA,,3135056,"35,32 %",54
-PvdA,,2832739,"31,91 %",49
-VVD,,1290427,"14,54 %",22
-D66,,700538,"7,89 %",12
-GL,,361324,"4,07 %",6
-SGP,,165918,"1,87 %",3
-GPV,,109458,"1,23 %",2
-RPF,,85081,"0,96 %",1
-CD,,81337,"0,92 %",1
-SP,,38829,"0,44 %",0
-De Groenen,,30698,"0,35 %",0
-Vrouwenpartij,,12018,"0,14 %",0
-Bejaarden Centraal,,7840,"0,09 %",0
-VCN: partij van communisten in Nederland,,7361,"0,08 %",0
-Realisten Nederland,,6032,"0,07 %",0
-Socialistische Arbeiderspartij,,4283,"0,05 %",0
-Anti Werkloosheid Partij,,2166,"0,02 %",0
-Politieke Partij voor Ouderen,,2149,"0,02 %",0
-Vooruitstrevende Minderheden Partij,,1939,"0,02 %",0
-Partij Democratisch Socialisten,,452,"0,01 %",0
-Socialistische Minderheden Partij,,328,"0,00 %",0
-Humanistische Partij,,318,"0,00 %",0
-Milieu Defensie Partij 2000+,,138,"0,00 %",0
-Grote Alliance Partij,,54,"0,00 %",0
-Staatkundige Federatie,,31,"0,00 %",0
-
-
 Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige/blanco stemmen,Percentage ongeldige/blanco stemmen,# kiesgerechtigden,Opkomst,Opkomstpercentage,CDA,PvdA,VVD,D66,GL,SGP,GPV,RPF,CD,SP,De Groenen,Vrouwenpartij,Bejaarden Centraal,VCN: partij van communisten in Nederland,Realisten Nederland,Socialistische Arbeiderspartij,Anti Werkloosheid Partij,Politieke Partij voor Ouderen,Vooruitstrevende Minderheden Partij,Partij Democratisch Socialisten,Socialistische Minderheden Partij,Humanistische Partij,Milieu Defensie Partij 2000+,Grote Alliance Partij,Staatkundige Federatie
 11084,738,Aalburg,6509,28,"0,43 %",7619,6537,"85,80 %",2712,1019,513,206,96,1555,137,223,23,6,7,6,2,0,1,3,0,0,0,0,0,0,0,0,0
 11264,358,Aalsmeer,14181,50,"0,35 %",16904,14231,"84,19 %",6206,2612,3361,1107,342,82,131,164,95,3,39,20,5,5,2,0,2,4,0,0,1,0,0,0,0
@@ -701,7 +673,7 @@ Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige/blanco stemmen,Perc
 11398,351,Woudenberg,6328,21,"0,33 %",7167,6349,"88,59 %",2476,1031,1120,392,170,686,118,272,26,11,14,6,1,2,0,1,0,0,0,0,0,2,0,0,0
 10282,874,Woudrichem,8600,18,"0,21 %",9858,8618,"87,42 %",3925,2101,923,344,182,452,299,285,30,20,20,6,1,3,6,3,0,0,0,0,0,0,0,0,0
 10808,875,Wouw,5006,28,"0,56 %",6501,5034,"77,43 %",2498,1341,703,293,91,3,6,5,37,1,10,11,0,0,1,2,3,0,1,0,0,0,0,0,0
-0,710,Wûnseradiel,7301,25,"0,34 %",8266,7326,"88,63 %",3402,2272,727,387,255,20,90,72,16,2,17,20,0,3,11,3,4,0,0,0,0,0,0,0,0
+0,710,Wï¿½nseradiel,7301,25,"0,34 %",8266,7326,"88,63 %",3402,2272,727,387,255,20,90,72,16,2,17,20,0,3,11,3,4,0,0,0,0,0,0,0,0
 11427,683,Wymbritseradiel,9323,22,"0,24 %",10444,9345,"89,48 %",5261,1953,888,577,306,37,96,130,11,7,33,9,0,1,9,2,1,0,2,0,0,0,0,0,0
 11044,479,Zaanstad,75716,234,"0,31 %",95974,75950,"79,14 %",17384,30379,11716,7175,5522,299,511,549,934,167,342,127,119,309,39,48,26,53,17,0,0,0,0,0,0
 10557,297,Zaltbommel,5706,16,"0,28 %",6867,5722,"83,33 %",1633,2093,888,535,262,117,61,38,30,16,12,9,0,2,1,3,0,6,0,0,0,0,0,0,0
@@ -729,7 +701,3 @@ Amsterdamse code,CBS code,Naam,# geldige stemmen,# ongeldige/blanco stemmen,Perc
 10872,138,Zweeloo,2040,5,"0,25 %",2155,2045,"94,90 %",509,776,512,112,63,2,15,31,6,4,4,0,0,3,1,0,0,0,2,0,0,0,0,0,0
 10468,642,Zwijndrecht,25544,67,"0,26 %",31418,25611,"81,52 %",8341,7740,3948,2189,742,985,674,425,282,49,56,28,29,7,22,10,8,0,9,0,0,0,0,0,0
 10093,193,Zwolle,56830,65,"0,11 %",71356,56895,"79,73 %",18109,19410,7474,4877,2622,428,2111,1079,198,171,140,75,22,28,31,26,7,14,8,0,0,0,0,0,0
-This file is created with Aspose.Cells for evaluation only with an Evaluation License. 
-It is strictly prohibited from using it in the production of any software. 
-Any violation of this provision shall require a mandatory purchase of pay license 
-as well as expose the user to other legal recourse for collection and punitive damages.

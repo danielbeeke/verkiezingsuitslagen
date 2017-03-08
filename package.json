@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/danielbeeke/verkiezingsuitslagen/issues"
   },
-  "homepage": "https://github.com/danielbeeke/verkiezingsuitslagen#readme"
+  "homepage": "https://github.com/danielbeeke/verkiezingsuitslagen#readme",
+  "dependencies": {
+    "csv-parse": "^1.2.0"
+  }
 }
