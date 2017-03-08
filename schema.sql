@@ -26,7 +26,6 @@ CREATE TABLE city_votes_info (
   city_ID INTEGER,
   valid_votes INTEGER,
   invalid_votes INTEGER,
-  empty_votes INTEGER,
   entitled_voters INTEGER,
   attendance INTEGER
 );
