@@ -16,7 +16,7 @@ var dataParser = {
     getTotals: function (year) {
         var totalsCsvBuffer = fs.readFileSync('./data/' + year + '.totals.csv');
         var totalsCsv = totalsCsvBuffer.toString();
-        var totals = parse(totalsCsv, { columns: ['party', 'aggregation_party', 'votes', 'percentage', 'chairs'] });
+        var totals = parse(totalsCsv, { columns: ['party', 'aggregation_party', 'votes', 'percentage', 'seats'] });
         totals.shift();
 
         totals.forEach((totalsRow) => {

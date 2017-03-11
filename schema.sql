@@ -21,9 +21,10 @@ CREATE TABLE seats (
 
 CREATE TABLE cities (
   ID SERIAL PRIMARY KEY,
+  cbs_ID INTEGER,
   name VARCHAR,
-  geom GEOMETRY(Point, 26910),
-  CONSTRAINT unique_name UNIQUE (name)
+  geom GEOMETRY(Point, 4326),
+  CONSTRAINT unique_cbs UNIQUE (cbs_ID)
 );
 
 CREATE TABLE city_votes_info (
