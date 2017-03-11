@@ -1,1 +1,0 @@
-var dataImporter = require('./import-data');

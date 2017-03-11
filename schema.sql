@@ -34,6 +34,7 @@ CREATE TABLE city_votes_info (
   invalid_votes INTEGER,
   entitled_voters INTEGER,
   attendance INTEGER,
+  PRIMARY KEY(city_ID, year),
   CONSTRAINT unique_city_ID_year UNIQUE (city_ID, year)
 );
 
@@ -42,5 +43,6 @@ CREATE TABLE city_votes (
   city_ID INTEGER,
   party_alias_ID INTEGER,
   votes INTEGER,
+  PRIMARY KEY(city_ID, year, party_alias_ID),
   CONSTRAINT unique_city_ID_year_party_alias_ID UNIQUE (city_ID, year, party_alias_ID)
 );

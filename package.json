@@ -2,7 +2,7 @@
   "name": "verkiezingsuitslagen",
   "version": "1.0.0",
   "description": "Used data from: http://www.verkiezingsuitslagen.nl",
-  "main": "index.js",
+  "main": "src/api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

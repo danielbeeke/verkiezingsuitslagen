@@ -1,5 +1,5 @@
 var promise = require('bluebird');
-var config = require('./config');
+var config = require('../config');
 
 var options = {
     promiseLib: promise

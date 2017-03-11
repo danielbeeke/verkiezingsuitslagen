@@ -3,7 +3,7 @@ var parse = require('csv-parse/lib/sync');
 
 var dataParser = {
     getYears: function () {
-        var files = fs.readdirSync('./data/');
+        var files = fs.readdirSync('../data/');
         var years = [];
         files.forEach((file) => {
             if (file.length == 8) {
@@ -14,7 +14,7 @@ var dataParser = {
     },
 
     getTotals: function (year) {
-        var totalsCsvBuffer = fs.readFileSync('./data/' + year + '.totals.csv');
+        var totalsCsvBuffer = fs.readFileSync('../data/' + year + '.totals.csv');
         var totalsCsv = totalsCsvBuffer.toString();
         var totals = parse(totalsCsv, { columns: ['party', 'aggregation_party', 'votes', 'percentage', 'seats'] });
         totals.shift();
@@ -29,7 +29,7 @@ var dataParser = {
     },
 
     getCityVotes: function (year) {
-        var cityVotesCsvBuffer = fs.readFileSync('./data/' + year + '.csv');
+        var cityVotesCsvBuffer = fs.readFileSync('../data/' + year + '.csv');
         var cityVotesCsv = cityVotesCsvBuffer.toString();
 
         var cityVotesHeaders = parse(cityVotesCsv);
