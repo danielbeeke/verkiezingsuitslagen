@@ -14,14 +14,16 @@ CREATE TABLE party_aliases (
 
 CREATE TABLE seats (
   year INTEGER,
-  party_ID INTEGER,
-  number INTEGER
+  party_alias_ID INTEGER,
+  number INTEGER,
+  CONSTRAINT unique_party_alias_ID UNIQUE (party_alias_ID, year)
 );
 
 CREATE TABLE cities (
   ID SERIAL PRIMARY KEY,
   name VARCHAR,
-  geom GEOMETRY(Point, 26910)
+  geom GEOMETRY(Point, 26910),
+  CONSTRAINT unique_name UNIQUE (name)
 );
 
 CREATE TABLE city_votes_info (
@@ -30,12 +32,14 @@ CREATE TABLE city_votes_info (
   valid_votes INTEGER,
   invalid_votes INTEGER,
   entitled_voters INTEGER,
-  attendance INTEGER
+  attendance INTEGER,
+  CONSTRAINT unique_city_ID_year UNIQUE (city_ID, year)
 );
 
 CREATE TABLE city_votes (
   year INTEGER,
   city_ID INTEGER,
-  party_ID INTEGER,
-  votes INTEGER
+  party_alias_ID INTEGER,
+  votes INTEGER,
+  CONSTRAINT unique_city_ID_year_party_alias_ID UNIQUE (city_ID, year, party_alias_ID)
 );
