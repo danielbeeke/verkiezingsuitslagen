@@ -1,7 +1,7 @@
 import L from 'leaflet';
 import 'leaflet-hash';
 import 'leaflet-markercluster';
-import SvgPie from './SvgPie';
+import DivBar from './DivBar';
 
 class VerkiezingsMap {
 
@@ -14,7 +14,7 @@ class VerkiezingsMap {
         L.tileLayer('https://tilemill.studiofonkel.nl/style/{z}/{x}/{y}.png?id=tmstyle:///home/administrator/styles/verkiezingsuitslagen.tm2').addTo(this.leafletMap);
         this.cluster = L.markerClusterGroup({
             singleMarkerMode: true,
-            maxClusterRadius: 130,
+            maxClusterRadius: 190,
             showCoverageOnHover: false,
             iconCreateFunction: (cluster) => {
                 return this.clusterIcon(cluster);
@@ -68,7 +68,7 @@ class VerkiezingsMap {
         Object.keys(aggregatedData.votes).forEach((party) => {
             series.push({
                 label: party,
-                percentage: (100 / aggregatedData.entitled_voters * aggregatedData.votes[party]) / 100,
+                percentage: (100 / aggregatedData.entitled_voters * aggregatedData.votes[party]),
                 color: this.parties.filter((item) => item.name == party)[0].color
             });
         });
@@ -78,13 +78,13 @@ class VerkiezingsMap {
 
     clusterIcon (cluster) {
         var aggregatedData = this.aggregateCluster(cluster);
-        var pieData = this.prepareCluster(aggregatedData);
-        var pie = new SvgPie(pieData);
-        var renderedPie = pie.renderToHTML();
+        var chartData = this.prepareCluster(aggregatedData);
+        var chart = new DivBar(chartData);
+        var renderedChart = chart.renderToHTML();
 
         return new L.DivIcon({
-            html: renderedPie,
-            iconSize: [60, 60]
+            html: renderedChart,
+            iconSize: [40, 170]
         })
     }
 

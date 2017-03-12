@@ -1,0 +1,42 @@
+.div-bar {
+  position: relative;
+  height: 170px;
+  width: 40px;
+  transition: all .3s;
+  background-color: #ddd;
+
+  .bar {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+
+    .party-label {
+      position: absolute;
+      font-size: 12px;
+      text-align: center;
+      color: white;
+      text-shadow: 0 0 4px black;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .percentage {
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 0;
+      overflow: hidden;
+      transition: all .3s;
+      margin-left: 4px;
+    }
+  }
+
+  &:hover {
+    width: 70px;
+    transform: translateX(-15px);
+
+    .percentage {
+      max-width: 50px;
+    }
+  }
+}

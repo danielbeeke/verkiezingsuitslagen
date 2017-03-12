@@ -8,7 +8,7 @@ var verkiezingsMap = new VerkiezingsMap('map');
 verkiezingsAPI.getParties(2012).then((parties) => {
     verkiezingsAPI.getCities(2012).then((cities) => {
         verkiezingsMap.setParties(parties);
-        var verkiezingsLegend = new VerkiezingsLegend('legend', parties);
+        // var verkiezingsLegend = new VerkiezingsLegend('legend', parties);
 
         verkiezingsMap.addCityMarkers(cities);
     });
