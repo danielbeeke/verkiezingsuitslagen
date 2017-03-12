@@ -14,6 +14,13 @@ class VerkiezingsApi {
             return response.json();
         });
     }
+
+    getParties (year) {
+        return fetch(this.apiBase + 'parties/' + year)
+        .then((response) => {
+            return response.json();
+        });
+    }
 }
 
 export default VerkiezingsApi;

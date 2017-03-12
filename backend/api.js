@@ -9,5 +9,6 @@ app.use(function(req, res, next) {
 });
 
 app.get('/api/cities/:year', crud.getAllCities);
+app.get('/api/parties/:year', crud.getPartyInfo);
 
 app.listen(3007);

@@ -14,6 +14,7 @@ class VerkiezingsMap {
         L.tileLayer('https://tilemill.studiofonkel.nl/style/{z}/{x}/{y}.png?id=tmstyle:///home/administrator/styles/verkiezingsuitslagen.tm2').addTo(this.leafletMap);
         this.cluster = L.markerClusterGroup({
             singleMarkerMode: true,
+            maxClusterRadius: 130,
             showCoverageOnHover: false,
             iconCreateFunction: (cluster) => {
                 return this.clusterIcon(cluster);
@@ -57,18 +58,18 @@ class VerkiezingsMap {
         return aggregatedData;
     }
 
-    randomColor () {
-      return '#'+ Math.floor(Math.random() * 16777215).toString(16);
+    setParties (parties) {
+        this.parties = parties;
     }
 
-    prepareSvgPie (aggregatedData) {
+    prepareCluster (aggregatedData) {
         var series = [];
 
         Object.keys(aggregatedData.votes).forEach((party) => {
             series.push({
                 label: party,
                 percentage: (100 / aggregatedData.entitled_voters * aggregatedData.votes[party]) / 100,
-                color: party.color
+                color: this.parties.filter((item) => item.name == party)[0].color
             });
         });
 
@@ -77,19 +78,20 @@ class VerkiezingsMap {
 
     clusterIcon (cluster) {
         var aggregatedData = this.aggregateCluster(cluster);
-        var pieData = this.prepareSvgPie(aggregatedData);
+        var pieData = this.prepareCluster(aggregatedData);
         var pie = new SvgPie(pieData);
         var renderedPie = pie.renderToHTML();
 
         return new L.DivIcon({
             html: renderedPie,
-            iconSize: [40, 40]
+            iconSize: [60, 60]
         })
     }
 
     addCityMarkers (cities) {
         cities.forEach((city) => {
             var cityMarker = L.marker([city.lat, city.lon]);
+            // cityMarker.bindTooltip(city.city);
             cityMarker.data = city;
             this.cluster.addLayer(cityMarker);
         });
