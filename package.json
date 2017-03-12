@@ -2,7 +2,7 @@
   "name": "verkiezingsuitslagen",
   "version": "1.0.0",
   "description": "Used data from: http://www.verkiezingsuitslagen.nl",
-  "main": "src/api.js",
+  "main": "backend/api.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +16,49 @@
     "url": "https://github.com/danielbeeke/verkiezingsuitslagen/issues"
   },
   "homepage": "https://github.com/danielbeeke/verkiezingsuitslagen#readme",
+  "jspm": {
+    "name": "verkiezingsuitslagen",
+    "main": "app.js",
+    "directories": {
+      "baseURL": "frontend",
+      "packages": "frontend/lib"
+    },
+    "devDependencies": {
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4",
+      "fs": "npm:jspm-nodelibs-fs@^0.2.0",
+      "path": "npm:jspm-nodelibs-path@^0.2.0",
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.21",
+      "process": "npm:jspm-nodelibs-process@^0.2.0"
+    },
+    "peerDependencies": {
+      "events": "npm:jspm-nodelibs-events@^0.2.0"
+    },
+    "overrides": {
+      "npm:babel-runtime@5.8.38": {
+        "main": false,
+        "dependencies": {},
+        "optionalDependencies": {
+          "core-js": "^1.2.0"
+        }
+      }
+    }
+  },
   "dependencies": {
     "bluebird": "^3.5.0",
     "csv-parse": "^1.2.0",
+    "express": "^4.15.2",
+    "odatajs": "^4.0.0",
     "pg-promise": "^5.6.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "browser-sync-ui": "^0.6.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "jspm": "^0.17.0-beta.39",
+    "require-dir": "^0.3.1"
   }
 }

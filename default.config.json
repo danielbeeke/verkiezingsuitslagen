@@ -1,0 +1,8 @@
+{
+  "host": "localhost",
+  "port": 5432,
+  "database": "DATABASE",
+  "user": "USER",
+  "password": "PASSWORD",
+  "google_access_token": "TOKEN"
+}
