@@ -5,23 +5,23 @@ var exec = require('child_process').exec;
 
 gulp.task('build', ['css'], function () {
 
-    exec('jspm bundle KozijnIsolatie/app dist/build.js --minify', function (err, stdout, stderr) {
+    exec('jspm bundle verkiezingsuitslagen/app dist/build.js --minify', function (err, stdout, stderr) {
         console.log(stdout);
         console.log(stderr);
     });
 
-    gulp.src('./app/*.html')
+    gulp.src('./frontend/*.html')
     .pipe(gulp.dest('./dist'));
 
-    gulp.src('./app/jspm.config.js')
+    gulp.src('./frontend/jspm.config.js')
     .pipe(gulp.dest('./dist'));
 
-    gulp.src(['./app/es6-shim.js', './app/shims_for_IE.js'])
+    gulp.src(['./frontend/es6-shim.js', './frontend/shims_for_IE.js'])
     .pipe(gulp.dest('./dist'));
 
 
-    gulp.src('./app/lib/*')
+    gulp.src('./frontend/lib/*')
     .pipe(gulp.dest('./dist/lib'));
-    gulp.src('./app/css/*')
+    gulp.src('./frontend/css/*')
     .pipe(gulp.dest('./dist/css'));
 });

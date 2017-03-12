@@ -7,11 +7,11 @@ var browserSync = require('browser-sync').create();
 process.setMaxListeners(0);
 
 global.paths = {
-    'html': './app/**/*.html',
-    'scss': './app/scss/**/*.scss',
-    'css': './app/css',
-    'js': ['./app/**/*.js', '!./app/lib'],
-    'src': './app'
+    'html': './frontend/**/*.html',
+    'scss': './frontend/scss/**/*.scss',
+    'css': './frontend/css',
+    'js': ['./frontend/**/*.js', '!./frontend/lib'],
+    'src': './frontend'
 };
 
 global.browserSync = browserSync;

@@ -5,15 +5,7 @@ SystemJS.config({
     "verkiezingsuitslagen/": "js/"
   },
   browserConfig: {
-    "baseURL": "/",
-    "paths": {
-      "verkiezingsuitslagen/": "js/"
-    }
-  },
-  nodeConfig: {
-    "paths": {
-      "verkiezingsuitslagen/": ""
-    }
+    "baseURL": "/"
   },
   devConfig: {
     "map": {
@@ -58,6 +50,8 @@ SystemJS.config({
     "npm:*.json",
     "github:*/*.json"
   ],
-  map: {},
+  map: {
+    "events": "npm:jspm-nodelibs-events@0.2.0"
+  },
   packages: {}
 });
