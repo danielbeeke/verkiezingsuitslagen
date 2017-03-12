@@ -12,7 +12,7 @@ var crud = {
             'JOIN city_votes_info cvi ON cvi.city_id = c.id AND cv.year = cvi.year ' +
             'WHERE cv.year = ${year}' +
             'GROUP BY (c.name, c.geom, valid_votes, invalid_votes, entitled_voters, attendance) ' +
-            'ORDER BY c.name LIMIT 2',
+            'ORDER BY c.name',
         {
             year: year
         })

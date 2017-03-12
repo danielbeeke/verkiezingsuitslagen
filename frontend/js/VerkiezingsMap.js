@@ -81,9 +81,10 @@ class VerkiezingsMap {
         var pie = new SvgPie(pieData);
         var renderedPie = pie.renderToHTML();
 
-        console.table(pieData)
-
-        return new L.DivIcon({ html: renderedPie })
+        return new L.DivIcon({
+            html: renderedPie,
+            iconSize: [40, 40]
+        })
     }
 
     addCityMarkers (cities) {

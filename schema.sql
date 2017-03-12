@@ -1,6 +1,8 @@
 CREATE TABLE parties (
   ID SERIAL PRIMARY KEY,
-  name VARCHAR
+  name VARCHAR,
+  color VARCHAR,
+  CONSTRAINT unique_name UNIQUE (name)
 );
 
 CREATE TABLE party_aliases (

@@ -41,6 +41,14 @@ class SvgPie {
             pieSVG.appendChild(path);
         });
 
+        var midCircle = document.createElement('circle');
+        midCircle.setAttributeNS(null, 'cx', 0);
+        midCircle.setAttributeNS(null, 'cy', 0);
+        midCircle.setAttributeNS(null, 'r', .6);
+        midCircle.setAttributeNS(null, 'fill', '#fff');
+
+        pieSVG.appendChild(midCircle);
+
         return pieSVG;
     }
 }

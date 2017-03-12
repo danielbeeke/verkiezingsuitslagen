@@ -185,6 +185,26 @@ var dataImporter = {
                 return result[0];
             }
         });
+    },
+
+    createPartyObjects () {
+        db.query('SELECT * FROM party_aliases pa WHERE pa.year = 2012').then((partyAliases) => {
+            partyAliases.forEach((partyAlias) => {
+
+                db.query('INSERT INTO parties (name) VALUES (${name}) ON CONFLICT DO NOTHING', {
+                    name: partyAlias.alias
+                }).then(() => {
+                    db.query('SELECT id FROM parties WHERE name = ${name}', {
+                        name: partyAlias.alias
+                    }).then((parties) => {
+                        db.query('UPDATE party_aliases SET party_ID = ${party_id} WHERE id = ${party_alias_id}', {
+                            party_id: parties[0].id,
+                            party_alias_id: partyAlias.id
+                        })
+                    })
+                })
+            })
+        })
     }
 };
 
@@ -195,5 +215,6 @@ var dataImporter = {
 // dataImporter.insertCityYearInfo();
 // dataImporter.insertCityYearVotes();
 // dataImporter.geocodeCities();
+// dataImporter.createPartyObjects();
 
 module.exports = dataImporter;
