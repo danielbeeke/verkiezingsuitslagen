@@ -24,7 +24,8 @@
       "packages": "frontend/lib"
     },
     "dependencies": {
-      "leaflet": "github:Leaflet/Leaflet@^1.0.3"
+      "leaflet": "github:Leaflet/Leaflet@^1.0.3",
+      "mlevans/leaflet-hash": "github:mlevans/leaflet-hash@master"
     },
     "devDependencies": {
       "babel-runtime": "npm:babel-runtime@^5.8.24",

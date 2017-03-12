@@ -52,7 +52,8 @@ SystemJS.config({
   ],
   map: {
     "events": "npm:jspm-nodelibs-events@0.2.0",
-    "leaflet": "github:Leaflet/Leaflet@1.0.3"
+    "leaflet": "github:Leaflet/Leaflet@1.0.3",
+    "leaflet-hash": "github:mlevans/leaflet-hash@master"
   },
   packages: {}
 });
