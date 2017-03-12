@@ -24,7 +24,7 @@
       "packages": "frontend/lib"
     },
     "dependencies": {
-      "SINTEF-9012/PruneCluster": "github:SINTEF-9012/PruneCluster@^1.1.0",
+      "Leaflet/Leaflet.markercluster": "github:Leaflet/Leaflet.markercluster@^1.0.3",
       "leaflet": "github:Leaflet/Leaflet@^1.0.3",
       "mlevans/leaflet-hash": "github:mlevans/leaflet-hash@master",
       "whatwg-fetch": "npm:whatwg-fetch@^2.0.3"

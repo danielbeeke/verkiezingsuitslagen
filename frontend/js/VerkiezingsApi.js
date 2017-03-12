@@ -8,8 +8,8 @@ class VerkiezingsApi {
         this.apiBase = apiBase;
     }
 
-    getCities () {
-        return fetch(this.apiBase + 'cities')
+    getCities (year) {
+        return fetch(this.apiBase + 'cities/' + year)
         .then((response) => {
             return response.json();
         });
