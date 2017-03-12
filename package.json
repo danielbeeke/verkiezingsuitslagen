@@ -24,8 +24,10 @@
       "packages": "frontend/lib"
     },
     "dependencies": {
+      "SINTEF-9012/PruneCluster": "github:SINTEF-9012/PruneCluster@^1.1.0",
       "leaflet": "github:Leaflet/Leaflet@^1.0.3",
-      "mlevans/leaflet-hash": "github:mlevans/leaflet-hash@master"
+      "mlevans/leaflet-hash": "github:mlevans/leaflet-hash@master",
+      "whatwg-fetch": "npm:whatwg-fetch@^2.0.3"
     },
     "devDependencies": {
       "babel-runtime": "npm:babel-runtime@^5.8.24",

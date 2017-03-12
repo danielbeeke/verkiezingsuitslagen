@@ -35,7 +35,9 @@ SystemJS.config({
     ]
   },
   map: {
-    "babel": "npm:babel-core@5.8.38"
+    "babel": "npm:babel-core@5.8.38",
+    "leaflet-hash": "github:mlevans/leaflet-hash@master",
+    "fetch": "npm:whatwg-fetch@2.0.3"
   },
   packages: {
     "verkiezingsuitslagen": {
@@ -51,9 +53,9 @@ SystemJS.config({
     "github:*/*.json"
   ],
   map: {
+    "PruneCluster": "github:SINTEF-9012/PruneCluster@1.1.0",
     "events": "npm:jspm-nodelibs-events@0.2.0",
-    "leaflet": "github:Leaflet/Leaflet@1.0.3",
-    "leaflet-hash": "github:mlevans/leaflet-hash@master"
+    "leaflet": "github:Leaflet/Leaflet@1.0.3"
   },
   packages: {}
 });

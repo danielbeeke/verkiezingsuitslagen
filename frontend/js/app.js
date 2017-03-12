@@ -1,7 +1,9 @@
-import L from 'leaflet';
-import 'leaflet-hash';
+import VerkiezingsMap from './VerkiezingsMap';
+import VerkiezingsApi from './VerkiezingsApi';
 
-var map = L.map('map').setView([51.505, -0.09], 13);
-var hash = new L.Hash(map);
+var verkiezingsAPI = new VerkiezingsApi('http://localhost:3007/api/');
+var verkiezingsMap = new VerkiezingsMap('map');
 
-L.tileLayer('https://tilemill.studiofonkel.nl/style/{z}/{x}/{y}.png?id=tmstyle:///home/administrator/styles/verkiezingsuitslagen.tm2').addTo(map);
+verkiezingsAPI.getCities().then((cities) => {
+    verkiezingsMap.addCityMarkers(cities);
+});
