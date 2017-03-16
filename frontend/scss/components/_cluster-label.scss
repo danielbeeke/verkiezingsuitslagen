@@ -1,0 +1,48 @@
+.cluster-label {
+  width: 130px;
+  text-align: center;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 14px;
+  display: block;
+}
+
+.cluster-label-inner {
+  font-size: 12px;
+  display: inline;
+  box-decoration-break: clone;
+  padding: 1px 0;
+  background: white;
+  box-shadow: 6px 0 0 white, -6px 0 0 white;
+}
+
+.hover-label,
+.hidden-cities {
+  display: none;
+}
+
+.leaflet-div-icon:hover .cluster-label {
+  &.more-than-four {
+    width: 200px;
+  }
+
+  .hidden-cities {
+    display: inline;
+  }
+
+  .visible-cities-end {
+    display: none;
+  }
+}
+
+.div-bar2:hover + .cluster-label {
+  .city-label {
+    display: none;
+  }
+
+  .hover-label {
+    display: inline;
+  }
+}

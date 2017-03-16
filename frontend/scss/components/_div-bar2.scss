@@ -1,0 +1,57 @@
+.div-bar2 {
+  position: relative;
+  transition: all .3s;
+  overflow: hidden;
+  border-bottom: 10px solid transparent;
+  pointer-events: none;
+
+  .bar {
+    pointer-events: all;
+    overflow: hidden;
+    white-space: nowrap;
+    flex-basis: 9px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: flex-end;
+    transition: opacity $speed;
+
+    .party-label {
+      position: absolute;
+      font-size: 12px;
+      text-align: center;
+      color: white;
+      text-shadow: 0 0 4px black;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .percentage {
+      display: inline-block;
+      vertical-align: middle;
+      max-width: 0;
+      overflow: hidden;
+      transition: all .3s;
+      margin-left: 4px;
+    }
+  }
+
+  .div-bar2-inner {
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+
+    &:hover {
+      .bar {
+        opacity: 0.2;
+      }
+    }
+
+    .bar:hover {
+      opacity: 1;
+    }
+  }
+}
